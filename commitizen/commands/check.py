@@ -142,6 +142,8 @@ class Check:
                 lines.append(line)
         return "\n".join(lines)
 
+
+    # modify
     def _validate_commit_message(
         self, commit_msg: str, pattern: re.Pattern[str]
     ) -> bool:
